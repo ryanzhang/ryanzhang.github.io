@@ -1,0 +1,77 @@
+{
+  "site":{
+    "title": "升烟的博客"
+  },
+  "nav":{
+    "home": "首页",
+    "about_me": "关于我",
+    "skills": "技能",
+    "projects": "项目",
+    "career": "职业",
+    "blog": "博客",
+    "slide": "幻灯片",
+    "link": "友情链接",
+    "allslide": "汇总",
+    "techslide": "技术",
+    "nontechslide": "非技术",
+    "donate": "赞助"
+  },
+  "about_me":{
+    "about_me": "关于我",
+    "des": "我是一名软件工程师, 熟悉Java,Python,Groovy,Bash语言,熟悉CI，Jenkins等自动化运维工具. 平时喜欢滑雪，潜水，读书，旅行. 喜欢分享知识和喜悦!"
+  },
+  "skills":{
+    "my_skills": "我的技能"
+  },
+  "projects":{
+    "my_projects": "我的项目",
+    "jalpc": "这是一个我自己的GitHub项目.",
+    "cpython": "这是一个别人的GitHub项目.",
+    "familycode": "这是另外一个项目."
+  },
+  "career":{
+    "my_career": "履历",
+    "redhat": "红帽",
+    "redhat3_desc": "主要负责红帽 RHDM/RHBA(前身叫BRMS/BPM规则引擎,工作流)开源产品化管理，采用Scrum流程管理项目, 关键词:Scrum master, 跨时区管理, CI/CD,Openshift",
+    "redhat3_date": "2016年9月 至 现在",
+    "redhat3_job": "研发部门产品化经理",
+    "redhat2_desc": "为开源社区github/kiegroup 研发端到端持续化产品集成方案 为红帽中间件提供产品化解决方案. 关键词: jenkins, Python, JIRA， makefile, bash, java, maven extension, wildfly, openstack",
+    "redhat2_date": "2012年9月 至 2016年9月",
+    "redhat2_job": "项目Technical Leader",
+    "redhat1_desc": "为开源项目droolsjbpm研发集成以及产品化方案,关键词: jboss,java,drools,jbpm, maven, ant, gradle",
+    "redhat1_date": "2009年4月 至 2012年9月",
+    "redhat1_job": "高级软件工程师",
+
+    "cienet": "瞬联软件有限公司",
+    "cienet_desc": "在摩托罗拉手机平台研发部门参与开发平台后端数据库,关键词:db, sqlite, motorola,mobile, C",
+    "cienet_date": "2006年9月 至 2009年9月",
+    "cienet_job": "高级软件工程师",
+
+    "yongyou": "用友政务软件有限公司",
+    "yongyou_desc": "政务平台核心部门从事工作流引擎以及从事工作流前端开发(javascript ajex) 关键词:workflow engine, javascript ajex,j2ee, jboss,tomcat",
+    "yongyou_date": "2004年7月 至 2006年3月",
+    "yongyou_job": "软件工程师",
+
+    "cugb": "中国地质大学(北京)",
+    "cugb_desc": "本科，研究生都是就读于地质大学,2000年工作了半年(北京迪生动画有限公司 IT) 关键词:考研, 大学数学竞赛第一,英语六级,每年计算机实习",
+    "cugb_date": "1996年9月 至 2004年7月",
+    "cugb_job": "研究生:计算机软件, 本科:勘查工程",
+
+    "ltyz": "江西南昌县莲塘一中",
+    "ltyz_desc": "省重点高中，理工科，学习优异",
+    "ltyz_date": "1993年9月 至 1996年7月",
+    "ltyz_job": "高中"
+
+  },
+  "blog":{
+    "my_blog": "我的博客"
+  },
+  "slide":{
+    "slide": "幻灯片"
+  },
+  "link":{
+    "link": "友情链接",
+    "view": "次访问"
+  }
+
+}

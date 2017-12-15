@@ -1,0 +1,99 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Redhat
+    i18n: redhat
+  desc:
+    detail: Responsible for Redhat Middleware RHDM/RHBA(a.k.a BRMS/BPMSuite) productization solution. Developing CI/CD solution based on openstack and deployed to openshift. Keywords -Scrum Master, cross site manager,CI/CD, Jenkins DSL, openshift, docker image, openstack
+    i18n: redhat3_desc
+  date:
+    detail: Sept. 2016 to Now
+    i18n: redhat3_date
+  job:
+    detail: R&D Associate manager
+    i18n: redhat3_job
+  icon: fa-plus-square
+
+- name:
+    detail: Redhat
+    i18n: redhat
+  desc:
+    detail: Developing CI solution from opensource project to enterprise product for Redhat MiddleWare department. Keywords - Jenkins, cross site/timezone collaboration, Python, Makefile, JIRA, bash , java, maven extension, bash, wildfly, openstack, RHEL
+    i18n: redhat2_desc
+  date:
+    detail: Sept. 2012 to Sept. 2016
+    i18n: redhat2_date
+  job:
+    detail: Project Leader
+    i18n: redhat2_job
+  icon: fa-plus-square
+
+- name:
+    detail: Redhat
+    i18n: redhat
+  desc:
+    detail: Developing Integrating and delivering solution for opensource project droolsjbpm to enterprise BRMS/BPMSuite. Keywords - jboss,java,drools,jbpm, maven, ant, gradle, rpm build, brew
+    i18n: redhat1_desc
+  date:
+    detail: Apr. 2009 to Sept. 2012
+    i18n: redhat1_date
+  job:
+    detail: Senior Software Engineer
+    i18n: redhat1_job
+  icon: fa-plus-square
+
+- name:
+    detail: CIeNET
+    i18n: cienet
+  desc:
+    detail: Senior Software engineer in Motorola Mobile platform R&D as contractor. Responsibility included developing for the backend database for Motorola mobile platform. Keywords - db, sqlite, motorola,mobile, C
+    i18n: cienet_desc
+  date:
+    detail: Mar. 2006 to Sept. 2009
+    i18n: cienet_date
+  job:
+    detail: Senior Software Engineer
+    i18n: cienet_job
+  icon: fa-plus-square
+
+- name:
+    detail: YongYouGov
+    i18n: yongyou
+  desc:
+    detail: Software engineer in platform core team and repsponsibility included developing workflow engine and workflow front end. Keywords - workflow engine, javascript ajex,j2ee, jboss,tomcat
+    i18n: yongyou_desc
+  date:
+    detail: Jul. 2004 to Mar. 2006
+    i18n: yongyou_date
+  job:
+    detail: Software Engineer
+    i18n: yongyou_job
+  icon: fa-plus-square
+
+- name:
+    detail: China University of Geosciences(Beijing)
+    i18n: cugb
+  desc:
+    detail: Study in CUGB University for both master and bachelor degree, 7 years. Worked half year as regular employee in 2000. (Employer:Beijing Dison DongHua, co. Ltd)  Keywords -KaoYan, 1st Prize of Advance Mathematical Competition; CET band 6, Internship in IT company each year;
+    i18n: cugb_desc
+  date:
+    detail: Sept. 2001 to July. 2004
+    i18n: cugb_date
+  job:
+    detail: Master degree - Computer Science, Bachelor degree - Construction Engineering
+    i18n: cugb_job
+  icon: fa-plus-square
+
+- name:
+    detail: Liang Tang Yi Zhong
+    i18n: ltyz
+  desc:
+    detail: Province Key high school Keywords - Class 2nd score in the college entrance exam;
+    i18n: ltyz_desc
+  date:
+    detail: Sept. 1993 to July. 1996
+    i18n: ltyz_date
+  job:
+    detail: Senior Student
+    i18n: ltyz_job
+  icon: fa-plus-square
