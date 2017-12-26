@@ -4,7 +4,7 @@
     detail: Redhat
     i18n: redhat
   desc:
-    detail: Responsible for Redhat Middleware RHDM/RHBA(a.k.a BRMS/BPMSuite) productization solution. Developing CI/CD solution based on openstack and deployed to openshift. Keywords -Scrum Master, cross site manager,CI/CD, Jenkins DSL, openshift, docker image, openstack
+    detail: Associate Manager role for Redhat Middleware R&D department. Responsibility scope includes - Developing CI/CD pipeline for opensource product Redhat Process Automation Manager and Decision Manager, including on-premise, and cloud solutions for openshift - Deliver Productization solutions - Team management, hiring etc Tech area - Java, JEE8, Jenkins DSL, CI/CD, python, groovy, Ansible, Openshift, OpenStack etc.
     i18n: redhat3_desc
   date:
     detail: Sept. 2016 to Now
@@ -18,7 +18,7 @@
     detail: Redhat
     i18n: redhat
   desc:
-    detail: Developing CI solution from opensource project to enterprise product for Redhat MiddleWare department. Keywords - Jenkins, cross site/timezone collaboration, Python, Makefile, JIRA, bash , java, maven extension, bash, wildfly, openstack, RHEL
+    detail: Project lead role in Redhat Middleware R&D department. Responsible scope includes - Opensource Productization for Redhat RHPAM & RHDM (aka BRMS and BPMSuite). - Product integration for Redhat middle integration platform product like EAP, RHPAM, RHDM, Fuse etc. - Tools developing to automate the process. - Coordinate among global team across(upstream developer, QE, PM, GSS) Tech area - JavaEE, maven, groovy, Python, Shell script, Linux, Docker, drools, jbpm, Jenkins etc
     i18n: redhat2_desc
   date:
     detail: Sept. 2012 to Sept. 2016
@@ -43,17 +43,17 @@
   icon: fa-plus-square
 
 - name:
-    detail: CIeNET
-    i18n: cienet
+    detail: Motorola
+    i18n: moto
   desc:
-    detail: Senior Software engineer in Motorola Mobile platform R&D as contractor. Responsibility included developing for the backend database for Motorola mobile platform. Keywords - db, sqlite, motorola,mobile, C
-    i18n: cienet_desc
+    detail: Senior Software engineer in Motorola Mobile platform R&D . Responsibility included developing for the backend database for Motorola mobile platform. Keywords - db, sqlite, motorola,mobile, C
+    i18n: moto_desc
   date:
     detail: Mar. 2006 to Sept. 2009
-    i18n: cienet_date
+    i18n: moto_date
   job:
     detail: Senior Software Engineer
-    i18n: cienet_job
+    i18n: moto_job
   icon: fa-plus-square
 
 - name:
@@ -82,18 +82,4 @@
   job:
     detail: Master degree - Computer Science, Bachelor degree - Construction Engineering
     i18n: cugb_job
-  icon: fa-plus-square
-
-- name:
-    detail: Liang Tang Yi Zhong
-    i18n: ltyz
-  desc:
-    detail: Province Key high school Keywords - Class 2nd score in the college entrance exam;
-    i18n: ltyz_desc
-  date:
-    detail: Sept. 1993 to July. 1996
-    i18n: ltyz_date
-  job:
-    detail: Senior Student
-    i18n: ltyz_job
   icon: fa-plus-square

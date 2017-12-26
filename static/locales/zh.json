@@ -42,18 +42,18 @@
     "redhat1_date": "2009年4月 至 2012年9月",
     "redhat1_job": "高级软件工程师",
 
-    "cienet": "瞬联软件有限公司",
-    "cienet_desc": "在摩托罗拉手机平台研发部门参与开发平台后端数据库,关键词:db, sqlite, motorola,mobile, C",
-    "cienet_date": "2006年9月 至 2009年9月",
-    "cienet_job": "高级软件工程师",
+    "moto": "摩托罗拉",
+    "moto_desc": "在摩托罗拉手机平台研发部门参与开发平台后端数据库,关键词:db, sqlite, motorola,mobile, C",
+    "moto_date": "2006年9月 至 2009年9月",
+    "moto_job": "高级软件工程师",
 
-    "yongyou": "用友政务软件有限公司",
-    "yongyou_desc": "政务平台核心部门从事工作流引擎以及从事工作流前端开发(javascript ajex) 关键词:workflow engine, javascript ajex,j2ee, jboss,tomcat",
+    "yongyou": "用友软件有限公司",
+    "yongyou_desc": "政务平台研发部门从事工作流引擎以及从事工作流前端开发(javascript ajex) 关键词:workflow engine, javascript ajex,j2ee, jboss,tomcat",
     "yongyou_date": "2004年7月 至 2006年3月",
     "yongyou_job": "软件工程师",
 
     "cugb": "中国地质大学(北京)",
-    "cugb_desc": "本科，研究生都是就读于地质大学,2000年工作了半年(北京迪生动画有限公司 IT) 关键词:考研, 大学数学竞赛第一,英语六级,每年计算机实习",
+    "cugb_desc": "本科，研究生都是就读于地质大学,2000年工作了半年(北京迪生动画有限公司 IT) 关键词:考研, 实习",
     "cugb_date": "1996年9月 至 2004年7月",
     "cugb_job": "研究生:计算机软件, 本科:勘查工程",
 

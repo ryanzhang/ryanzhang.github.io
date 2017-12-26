@@ -1,22 +1,23 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: BRMS/BPMSuite
-  i18n: jalpc
-  gh_user: 
-  repo: 
-  img: /static/assets/img/landing/jekyll.png
-  desc: Integration Redhat enterprice product RHDM/RHBA (a.k.a BRMS/BPMSuite) from upstream projects (kiegroups). It includes provide enterprice contents and patch solution and openshift image delivery etc. 
+- name: RedHat PAM/DM
+  i18n: redhat
+  gh_user: rhpam
+  url: www.redhat.com/en/technologies/jboss-middleware/decision-manager
+#  repo: github.com/kiegroup/
+  img: /static/assets/img/landing/redhat_logo.jpg
+  desc: Integration Redhat enterprice product RHDM/RHBA (a.k.a BRMS/BPMSuite) from upstream projects (kiegroups). It includes provide enterprice contents and patch solution and openshift image delivery etc.
 
 - name: Jenkins CI
   i18n: cpython
   gh_user: python
-  repo: private repo
-  img: /static/assets/img/landing/python.png
+  url: redhat internal url
+  img: /static/assets/img/landing/jenkins_logo.jpg
   desc: This project is using Jenkins DSL + Jenkins Pipeline to automate the complex redhat productization process. It also provide continue integration solution for upstream github projects.
 
 - name: Make MEAD
   i18n: google
   url: private repo
-  img: /static/assets/img/landing/google.png
-  desc: This is python, make project. It is used to control redhat  brew build system and doing productization for opensource project. It also provide features to simulate complex build system in local and jenkins envrionment by using python interface. 
+  img: /static/assets/img/landing/redhat_logo2.png
+  desc: This is python, make project. It is used to control redhat  brew build system and doing productization for opensource project. It also provide features to simulate complex build system in local and jenkins envrionment by using python interface.

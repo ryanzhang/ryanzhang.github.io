@@ -16,19 +16,11 @@
   href: /html/
   i18n: nav.donate
 
-- name: Database
-  href: /database/
-  i18n: nav.donate
-
-- name: Mac
-  href: /mac/
-  i18n: nav.donate
-
 - name: Life
   href: /life/
   i18n: nav.donate
 
-- name: Slides
+- name: Slide
   href: /slides
   i18n: nav.donate
 

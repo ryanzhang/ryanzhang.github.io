@@ -28,9 +28,17 @@
   <!-- Main Scripts -->
   <script src="{{"/static/assets/app-20171204.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"/static/assets/blog-20171204.min.js"| prepend: site.baseurl }}"></script>
-
-  {% if site.data.index.language %}
-  <script src="{{"/static/assets/i18-20171204.min.js"| prepend: site.baseurl }}"></script>
-  {% endif %}
-
+  <script type="text/javascript">
+          $(function(){
+            /* initiate the plugin */
+            $("div.pag-holder").jPages({
+                containerID  : "pag-itemContainer",
+                perPage      : 16,  /* num of items per page */
+                startPage    : 1,
+                startRange   : 1,
+                midRange     : 3,
+                endRange     : 1
+            });
+        });
+    </script>
 </head>

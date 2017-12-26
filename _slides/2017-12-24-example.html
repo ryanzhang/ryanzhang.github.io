@@ -1,39 +1,61 @@
 ---
 layout: reveal
-title:  "ExampleSlide"
+title:  "Welcome to HTML5 SLIDES"
 date:   2017-12-24
-desc: "Example Slides showing how the html slides works"
+author: "升烟"
+desc: "Welcome to the jekyll-reveal.js example presentation. It will demo what you can do in the slides."
 keywords: "Jalpc,Jekyll-reveals"
 categories: [NonTechSlide]
+reveal_theme: "animation.css"
 tags: [Jalpc,Jekyll]
 icon: icon-html
 ---
 
-## Welcome
+## Alignment
+This is the second slide. And it's just another file inside the _slides folder.
 
-Welcome to the jekyll-reveal.js example presentation.
+It is using Github Recommended Markdown syntax.
+
+Using div to control the alignment. Default contents is in middle as you can see.
+
+<div style="text-align: right">
+Right
+</div>
+
+<div style="text-align: left ">
+Left
+</div>
+
+<div style="text-align: center ">
+Middle
+</div>
+
 
 ---
 
-## Slide2
-This is the second slide. And it's just another file inside the _posts-directory.
+## Table
 
-It is identified as slide 2, because it has a "2" after the mandatory date-part (0000-01-01) in its
-filename. (It's called 0000-01-02-slides.md)
-
----
-
-## Slide3
-This is a third slide, although we're still in 0000-01-02-slides.md.
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 ---
 
 ## Fragment
-It's also possible to do fragments.
+It's also possible to do fragments. By Using < !-- .element: class="fragment" -- >
+
+* Like <!-- .element: class="fragment" -->
+
+* This <!-- .element: class="fragment" -->
 
 ---
 
-Or
+# Vertical Slides
+
+* Using up or down to go to vertical slides.
+
+* Using -- to define vertical slides
 
 --
 
@@ -45,14 +67,57 @@ Vertical
 
 --
 
-Slides
+Useful to expand on details and keep mainstream clean
 
 ---
 
-## Background
-{% background green %}
+## Background Color
 
-Or use different backgrounds.
+Or use different background via  < !-- .slide: data-background="white " -->
+
+<!-- .slide: data-background="greenyellow " -->
+
+---
+
+### Sizeable Picture
+
+Or use different background picture  < !-- .slide: data-background="white " -->. Using alt text in Markdown can enable Picture size. It supports
+**tiny small normal big**
+
+![tiny Tiny Picture](  {{ site.img_path }}/slide/example/blank.jpg )
+![small small Picture](  {{ site.img_path }}/slide/example/blank.jpg )
+![normal normal Picture](  {{ site.img_path }}/slide/example/blank.jpg )
+
+---
+
+### Picture aligment
+
+Using alt text in Markdown can enable Picture size. It supports
+**tiny small normal big**
+
+<div style="text-align: center " >
+right>
+</div>
+ ![small Left >](  {{ site.img_path }}/slide/example/blank.jpg )
+
+<div style="text-align: center ">
+<left
+</div>
+![small Right <](  {{ site.img_path }}/slide/example/blank.jpg )
+
+---
+
+## Have a Break
+
+Press 'b' to black out the slides. So audience can focus on the speakers.
+
+---
+
+## Video
+
+<video>
+    <source data-src="{{ site.img_path }}/slide/common/cloudsky.mp4" type="video/mp4" />
+</video>
 
 ---
 

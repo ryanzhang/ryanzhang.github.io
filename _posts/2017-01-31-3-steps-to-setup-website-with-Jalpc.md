@@ -1,22 +1,20 @@
 ---
 layout: post
-title:  "3 Steps (2 minutes) to Setup Your Personal Website with Jalpc"
+title:  "3 Steps (2 minutes) to Setup Your Personal Website "
 date:   2017-01-31
-desc: "3 Steps (2 minutes) to Setup Your Personal Website with Jalpc"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
+desc: "3 Steps (2 minutes) to Setup Your Personal Website "
+keywords: "Jalpc,Jekyll,reveal.js, gh-pages,website,blog,easy, online presentation"
 categories: [HTML]
-tags: [Jalpc,Jekyll]
+tags: [Jalpc,Jekyll,Reveal.js,presentation]
 icon: icon-html
 ---
 
-Everyone wants to have a personal website, you can display your infomation to public, post blogs and make friends. If you are CS engineer, haveing a self website will benefit your interview.
+## 5分钟让你搭建 个人博客站点
+#
+1. Fork [this project ](https://github.com/ryanzhang/ryanzhang.github.io) at [GitHub](https://github.com). If you want to edit website at github, do it as following gif or clone forked repository. `git clone git@github.com:github_username/Jalpc.git`.
 
-So, if you like this website <https://jarrekk.github.io/Jalpc/> or <http://www.jarrekk.com> and are willing to have a website, here is a way to build your website in 3 steps(2 minutes). Following are steps to setup your website(make sure you have basic knowledge of [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/), if you want to custom css/js [NPM](https://github.com/npm/npm) is needed):
-
-1. Fork [this project -- Jalpc](https://github.com/jarrekk/Jalpc) at [GitHub](https://github.com). If you want to edit website at github, do it as following gif or clone forked repository. `git clone git@github.com:github_username/Jalpc.git`.
-
-	<!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
-	<img src="{{ site.img_path }}/3steps/edit.gif" width="75%">
+	<!-- ![edit]({{ site.img_path }}/blog/3steps/edit.gif) -->
+	<img src="{{ site.img_path }}/blog/3steps/edit.gif" width="75%">
 
 2. Enter into repository directory and edit following file list:
 
@@ -37,3 +35,8 @@ So, if you like this website <https://jarrekk.github.io/Jalpc/> or <http://www.j
 From now on, you can post your blog to this website by creating md files at `post/` directory and push it to GitHub, you can clear files at this directory before you post blogs.
 
 If you like this repository, I appreciate you star this repository. Please don't hesitate to mail me or post issues on GitHub if you have any questions. Hope you have a happy blog time!😊
+
+## 用到的技术
+Markdown 语法 : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+So, if you like this website <https://jarrekk.github.io/Jalpc/> or <http://www.jarrekk.com> and are willing to have a website, here is a way to build your website in 3 steps(2 minutes). Following are steps to setup your website(make sure you have basic knowledge of [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/), if you want to custom css/js [NPM](https://github.com/npm/npm) is needed):

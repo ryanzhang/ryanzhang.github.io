@@ -3,11 +3,11 @@
 # Website settings
 title: 升烟
 description: 亲近自然，回归传统
-keywords: redhat,openshift,devops,CI,CD,Python,Java,cloud,kubernates,fabric8,云计算
-baseurl:  "" # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://ryanzhang.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
+keywords: redhat,openshift,devops,CI,CD,python,Java,cloud,kubernetes,fabric8,云计算,运维,jekyll,reveal.js,javascript
+baseurl:  "" # This will be your homepage
+url: https://ryanzhang.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /ryanzhang/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /static/assets/img  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -17,10 +17,10 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: ryanzhang  # Leave blank if you don't have now
   linkedin_id: ryan-zhangcheng # Leave blank if you don't have now
-  facebook_username:   # Leave blank if you don't have now
+  facebook_username: ryan.zhangcheng   # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: ryan.zhangcheng@qq.com  # Leave blank if you don't have now
-  cv: http://cv.ryanzhang.com  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: #http://cv.ryanzhang.com  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-apache
@@ -71,22 +71,22 @@ kramdown:
 
 #Slides settings
 # The Reveal theme
-reveal_theme: black.css
+reveal_theme: beige.css
 
 # The Reveal transition
-reveal_transition: slides
+reveal_transition: slides # none/fade/slide/convex/concave/zoom
 
 # Path to the used theme (defaults to the Reveal.js standard theme path)
-reveal_theme_path: ../reveal.js/css/theme/ 
+reveal_theme_path: ../reveal.js/css/theme/
 
 # Embed Server-side speaker notes?
 reveal_notes_server: false
 
 # Additional reveal.js options
-reveal_options: 
+reveal_options:
 
 # Additional reveal.js dependencies
-reveal_dependencies: 
+reveal_dependencies:
 
 # Reveal.js subdirectory
 reveal_path: ../reveal.js/
@@ -95,6 +95,9 @@ reveal_path: ../reveal.js/
 collections:
   slides:
     output: true
-  
-# Don't change anything below
-#markdown_ext: "text"
+    permalink: /:collection/:path
+
+# This is for support md5 to slides and load customize plugin in local mode
+#markdown: redcarpet
+#highlighter: pygments
+#markdown_ext: ignoreme

@@ -17,6 +17,7 @@ permalink: /slides/
 
             <!-- latest 10 blog -->
 			{% for post in site.slides limit:10 %}
+            {% unless post.categories contains 'smtm' %}
             <div class="vote-item">
                 <div class="row">
                     <div class="col-md-10">
@@ -25,6 +26,9 @@ permalink: /slides/
                         <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
                             {{ post.title }}
                         </a>
+                        <div class="vote-info">
+                          {{ post.desc}}
+                        </div>
                         <div class="vote-info">
                         {% if site.disqus %}
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>
@@ -40,6 +44,7 @@ permalink: /slides/
                     </div>
                 </div>
             </div>
+              {% endunless %}
             {% endfor %}
         </div>
     </div>

@@ -33,7 +33,7 @@
                         {% else %}
                         <li>
                         {% endif %}
-                        <a class="page-scroll" href="{{ tag.href | prepend: site.baseurl }}"><span data-i18n="{{ tag.i18n }}">{{ tag.name }}</span></a></li>
+                        <a class="page-scroll" title="{{tag.title}}" href="{{ tag.href | prepend: site.baseurl }}"><span data-i18n="{{ tag.i18n }}">{{ tag.name }}</span></a></li>
                         {% endif %}
                     {% endfor %}
                     <!--
