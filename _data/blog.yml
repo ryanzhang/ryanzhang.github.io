@@ -1,16 +1,16 @@
 # blog page sections
-- name: Blog
+- name: Work
   href: /blog/
   i18n: nav.blog
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
-- name: Python
-  href: /python/
-  i18n: nav.blog
+# - name: Python
+#   href: /python/
+#   i18n: nav.blog
 
-- name: Linux
-  href: /linux/
-  i18n: nav.donate
+# - name: Linux
+#   href: /linux/
+#   i18n: nav.donate
 
 # - name: HTML
 #   href: /html/
@@ -20,11 +20,14 @@
   href: /life/
   i18n: nav.donate
 
-- name: Slide
-  href: /slides
+- name: Home
+  href: /
   i18n: nav.donate
+# - name: Slide
+#   href: /slides
+#   i18n: nav.donate
 
 # Don't display donation page: change donation to off at file '_config.yml'
-- name: Donate
-  href: /donate/
-  i18n: nav.donate
+# - name: Donate
+#   href: /donate/
+#   i18n: nav.donate

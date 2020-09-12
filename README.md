@@ -1,19 +1,21 @@
-# Ryan Zhang Blog Resume
+# Ryan Zhang Page
+This page site is used to collect some of my activity and information in internet 
 
-- 配置修改: _config.yml
-- 修改Slides默认模板: _layouts/reveal.html
-- 增加Slides: _slides/
+- Revise config 配置修改: _config.yml
+- Revise Slides Configuration 修改Slides默认模板: _layouts/reveal.html
+- Add Slides 增加Slides: _slides/
 
 # How to build & Run
 ## Install ruby and ruby-dev
-dnf install ruby ruby-dev
+dnf install ruby ruby-devel
 or 
 ruby -v
+You might need to install gcc-c++ as well
 
 ## Install github-pages
 gem install github-pages
 
-## 
+## 运行
 1) bundle exec jekyll build
 2) bundle exec jekyll serve
 
@@ -27,6 +29,7 @@ _80 needs root permission_
 * bundle exec jekyll build --incremental --watch
 
 # Description
+
 ## Upstream 
 https://github.com.cnpmjs.org/jarrekk/Jalpc
 
