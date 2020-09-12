@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Ansible Automation,   Java/JEE, Bash, python, DevOps/CICD, Openshift, Serverless, MachineLearning, Service Mesh, Microservice,  linux, Scrum, English, Presentation, Customer Training, Pre Sales Engagement
+percentage:  85,                 85,     85,     75,    90,           90,         80,         70,              80,          80,           85 ,    75,      85,            85,     90,              75

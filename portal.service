@@ -1,0 +1,15 @@
+#This file is used to install systemd service
+[Unit]
+Description=Start ryanzhang.portal
+
+[Service]
+User=root
+WorkingDirectory=/root/ryanzhang-portal
+#Use /wrappers/jekyll instead of /bin/jekyll to fix env issue
+ExecStart=/usr/local/rvm/gems/ruby-2.6.3/wrappers/jekyll s --host=0.0.0.0 --port=80
+ExecReload=/bin/kill -HUB $MAINPID
+KillMode=process
+ExecStop=/bin/bash -c "kill -9 `pgrep -f jekyll`"
+
+[Install]
+WantedBy=default.target

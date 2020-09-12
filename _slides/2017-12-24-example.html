@@ -1,0 +1,129 @@
+---
+layout: reveal
+title:  "Welcome to HTML5 SLIDES"
+date:   2017-12-24
+author: "Ryan Zhang"
+desc: "Welcome to the jekyll-reveal.js example presentation. It will demo what you can do in the slides."
+keywords: "Jalpc,Jekyll-reveals"
+categories: [TechSlide]
+reveal_theme: "blood.css"
+tags: [Jalpc,Jekyll]
+icon: icon-html
+---
+
+## Alignment
+This is the second slide. And it's just another file inside the _slides folder.
+
+It is using Github Recommended Markdown syntax.
+
+Using div to control the alignment. Default contents is in middle as you can see.
+
+<div style="text-align: right">
+Right
+</div>
+
+<div style="text-align: left ">
+Left
+</div>
+
+<div style="text-align: center ">
+Middle
+</div>
+
+
+---
+
+## Table
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+---
+
+## Fragment
+It's also possible to do fragments. By Using < !-- .element: class="fragment" -- >
+
+* Like <!-- .element: class="fragment" -->
+
+* This <!-- .element: class="fragment" -->
+
+---
+
+# Vertical Slides
+
+* Using up or down to go to vertical slides.
+
+* Using -- to define vertical slides
+
+--
+
+Even
+
+--
+
+Vertical
+
+--
+
+Useful to expand on details and keep mainstream clean
+
+---
+
+## Background Color
+
+Or use different background via  < !-- .slide: data-background="white " -->
+
+<!-- .slide: data-background="greenyellow " -->
+
+---
+
+### Sizeable Picture
+
+Or use different background picture  < !-- .slide: data-background="white " -->. Using alt text in Markdown can enable Picture size. It supports
+**tiny small normal big**
+
+![tiny Tiny Picture](  {{ site.img_path }}/slide/example/blank.jpg )
+![small small Picture](  {{ site.img_path }}/slide/example/blank.jpg )
+![normal normal Picture](  {{ site.img_path }}/slide/example/blank.jpg )
+
+---
+
+### Picture aligment
+
+Using alt text in Markdown can enable Picture size. It supports
+**tiny small normal big**
+
+<div style="text-align: center " >
+right>
+</div>
+ ![small Left >](  {{ site.img_path }}/slide/example/blank.jpg )
+
+<div style="text-align: center ">
+<left
+</div>
+![small Right <](  {{ site.img_path }}/slide/example/blank.jpg )
+
+---
+
+## Have a Break
+
+Press 'b' to black out the slides. So audience can focus on the speakers.
+
+---
+
+## Video
+
+<video>
+    <source data-src="{{ site.img_path }}/slide/common/cloudsky.mp4" type="video/mp4" />
+</video>
+
+---
+
+## Speaker Notes
+This slide has a hidden treasure. Press "s" to see the speaker notes.
+
+Note:
+
+THIS TEXT IS HIDDEEEEEEEN! :)

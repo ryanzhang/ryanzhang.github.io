@@ -1,0 +1,22 @@
+# blog page sections
+- name: Slide
+  href: /slides/
+  i18n: nav.slide
+
+- name: TechSlide
+  href: /techslides/
+  i18n: nav.techslide
+
+# edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
+- name: NonTechSlide
+  href: /nontechslides/
+  i18n: nav.nontechslide
+
+- name: Blog
+  href: /blog/
+  i18n: nav.blog
+
+# Don't display donation page: change donation to off at file '_config.yml'
+- name: Donate
+  href: /donate/
+  i18n: nav.donate

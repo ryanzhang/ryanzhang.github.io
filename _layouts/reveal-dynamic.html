@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>{{ site.title }}</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="{{ site.reveal_path }}css/reveal.css">
+		<link rel="stylesheet" href="{{ site.reveal_theme_path }}{% if page.reveal_theme  %}{{ page.reveal_theme }}{% else %}{{ site.reveal_theme  }}{% endif %}" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="{{ site.reveal_path }}lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="{{ site.reveal_path }}css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="{{ site.reveal_path }}lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+            <div class="slides">
+
+				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:" >
+				<script type="text/template">
+
+# {{page.title}}
+### -- {{page.desc}}
+{{page.author}}
+{{ page.date | date: "%b %d, %y" }}
+
+<br/>
+<div id="backhomepage" >
+					[返回](/slides/)
+					</div>
+
+---
+
+				{{ content }}
+
+---
+
+# 谢谢观看
+
+[返回首页](/)
+
+{{ page.date | date: "%b %d, %y" }}
+
+
+<div id="backhomepage">
+[返回Slides](/slides/)
+</div>
+				</script>
+				</section>
+
+            </div>
+
+		</div>
+
+		<script src="{{ site.reveal_path }}lib/js/head.min.js"></script>
+		<script src="{{ site.reveal_path }}js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                {% if site.reveal_options %}
+
+                {{ site.reveal_options | append:',' }}
+
+                {% endif %}
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '{{ site.reveal_path }}lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '{{ site.reveal_path }}plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '{{ site.reveal_path }}plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '{{ site.reveal_path }}plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '{{ site.reveal_path }}plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    {% if site.reveal_notes_server %}
+                    { src: '{{ site.reveal_path }}socket.io/socket.io.js', async: true },
+                    { src: '{{ site.reveal_path }}plugin/notes-server/client.js', async: true }
+                    {% else %}
+					{ src: '{{ site.reveal_path }}plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    {% endif %}
+                    {% if site.reveal_dependencies %}
+                    , {{ site.reveal_dependencies }}
+                    {% endif %}
+				]
+			});
+
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				// if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+			
+			Reveal.configure({
+			  keyboard: {
+			    13: 'right', // go to the next slide when the ENTER key is pressed
+					9: 'left', // go to the next slide when the ENTER key is pressed
+			    32: 'next' // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+			  }
+			});
+		</script>
+
+	</body>
+</html>

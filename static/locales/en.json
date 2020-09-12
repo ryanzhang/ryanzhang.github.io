@@ -1,0 +1,73 @@
+{
+  "website":{
+    "title": "Jack's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "career": "Career",
+    "blog": "Blog",
+    "slide": "Slide",
+    "album": "Album",
+    "link": "Link",
+    "allslide": "Slide",
+    "techslide": "Technical",
+    "nontechslide": "Non-Tech",
+    "donate": "Donate"
+  },
+  "about_me":{
+    "about_me": "About Me",
+    "des": "Doing software R&D before 2018. Now work as Redhat Consultant. Current focus area: RedHat Middlware, Openshift/PAAS, MSA,DevOps, Ansible etc "
+  },
+  "skills":{
+    "my_skills": "My Skills"
+  },
+  "projects":{
+    "my_projects": "My Projects",
+    "jalpc": "This project is my project. I use javescript to get repo's information all my repos have only one request.",
+    "cpython": "This project is other's project. I use another request to get repo's information.",
+    "familycode": "This is another project."
+  },
+  "career":{
+    "my_career": "My Career",
+    "redhat": "Redhat",
+    "redhat3_desc": "Customer Onsite Solution Delivery. Area: Openshift Platform, Ansible, DevOps, MSA migration, Java Middleware, Training etc",
+    "redhat3_date": "Sept. 2018 to Now",
+    "redhat3_job": "Senior Consultant - Redhat China GPS(Global Professional Service)",
+    "redhat2_desc": "Global R&D team, 40% people managing and 60% technical team lead role. Products: Redhat Process Manager, Decision Manager (JBoss Middleware) ",
+    "redhat2_date": "Sept. 2016 to Sept. 2018",
+    "redhat2_job": "R&D Manager - Redhat Middleware(JBoss) R&D ",
+    "redhat1_desc": "Opensource Developer, Area: Java, devops, JEE, Python, Jenkins, Linux",
+    "redhat1_date": "Apr. 2009 to Sept. 2016",
+    "redhat1_job": "Senior Software Engineer & Techincal Lead - Redhat JBoss R&D department.",
+
+    "moto": "CIeNET",
+    "moto_desc": "Motorola mobile contractor. Doing ODBC, mobile db  C, TCL script programming etc",
+    "moto_date": "Mar. 2006 to Sept. 2009",
+    "moto_job": "Senior Software Engineer - Motorola Mobile platform R&D On-Site Development",
+
+    "yongyou": "YongYou Gov Software",
+    "yongyou_desc": "Software engineer for developing an J2EE platform, Doing workflow engine(BPMN), Ajax, jsp etc.",
+    "yongyou_date": "Jul. 2004 to Mar. 2006",
+    "yongyou_job": "Software Engineer -  Core Platform R&D. ",
+
+    "cugb": "China University of Geosciences(Beijing)",
+    "cugb_desc": "Study in CUGB University for both master and bachelor degree, 7 years. Worked half year in 2000, the gap year.",
+    "cugb_date": "Sept. 1996 to July. 2004",
+    "cugb_job": "Master degree - Computer Science, Bachelor degree - Construction Engineering"
+
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "slide":{
+    "slide": "My Slide"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}

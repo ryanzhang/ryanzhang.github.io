@@ -1,0 +1,72 @@
+{
+  "site":{
+    "title": "升烟的博客"
+  },
+  "nav":{
+    "home": "首页",
+    "about_me": "关于我",
+    "skills": "技能",
+    "projects": "项目",
+    "career": "职业",
+    "blog": "博客",
+    "slide": "幻灯片",
+    "album": "相册",
+    "link": "友情链接",
+    "allslide": "汇总",
+    "techslide": "技术",
+    "nontechslide": "非技术",
+    "donate": "赞助"
+  },
+  "about_me":{
+    "about_me": "关于我",
+    "des": "2018年以前做的是研发工作， 现在是红帽客户实施顾问，专注Openshift, 微服务, PaaS平台建设, DevOPS, Ansible自动化领域!"
+  },
+  "skills":{
+    "my_skills": "我的技能"
+  },
+  "projects":{
+    "my_projects": "我的项目",
+    "jalpc": "这是一个我自己的GitHub项目.",
+    "cpython": "这是一个别人的GitHub项目.",
+    "familycode": "这是另外一个项目."
+  },
+  "career":{
+    "my_career": "履历",
+    "redhat": "红帽",
+    "redhat3_desc": "客户现场顾问, 工作领域:Openshift平台, Ansible自动化, DevOps, 微服务迁移, Java中间件,还有培训",
+    "redhat3_date": "2018年9月 至 现在",
+    "redhat3_job": "红帽中国GPS(全球专业服务)",
+    "redhat2_desc": "40%人员管理，60%技术方面. 负责产品: 红帽 BPM,DM(drools&jbpm)，Optaplanner",
+    "redhat2_date": "2016年9月 至 2018年9月",
+    "redhat2_job": "研发经理, 红帽JBoss中间件研发",
+    "redhat1_desc": "开源软件开发,技术领域: Java, devops, JEE, Python, Jenkins, Linux",
+    "redhat1_date": "2009年4月 至 2016年9月",
+    "redhat1_job": "高级软件工程师,红帽JBoss中间件研发",
+
+    "moto": "瞬联",
+    "moto_desc": "摩托罗拉手机平台研发驻场外包， 参与开发平台后端数据库,关键词:db, sqlite, motorola,mobile, C",
+    "moto_date": "2006年9月 至 2009年9月",
+    "moto_job": "高级软件工程师， 摩托外包",
+
+    "yongyou": "用友政务",
+    "yongyou_desc": "政务平台研发部门从事工作流引擎以及从事工作流前端开发(javascript ajex)",
+    "yongyou_date": "2004年7月 至 2006年3月",
+    "yongyou_job": "软件工程师",
+
+    "cugb": "中国地质大学(北京)",
+    "cugb_desc": "本科，研究生都是就读于地质大学,2000 北京工作半年",
+    "cugb_date": "1996年9月 至 2004年7月",
+    "cugb_job": "研究生:计算机软件, 本科:勘查工程"
+  },
+  "blog":{
+    "my_blog": "我的博客"
+  },
+  "slide":{
+    "slide": "幻灯片"
+  },
+  "link":{
+    "link": "友情链接",
+    "view": "次访问"
+  }
+
+}

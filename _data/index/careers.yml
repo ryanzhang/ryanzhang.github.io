@@ -1,0 +1,85 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Redhat
+    i18n: redhat
+  desc:
+    detail: Associate Manager role Redhat Middleware R&D. Building CI/CD pipeline, Productization Redhat BPM and Decision Manager.
+    i18n: redhat3_desc
+  date:
+    detail: Sept. 2016 to Now
+    i18n: redhat3_date
+  job:
+    detail: R&D Associate manager
+    i18n: redhat3_job
+  icon: fa-plus-square
+
+- name:
+    detail: Redhat
+    i18n: redhat
+  desc:
+    detail: Project lead for productization Redhat RHPAM & RHDM (aka BRMS and BPMSuite). Doing CICD, automation, BPM, Drools Rules etc.
+    i18n: redhat2_desc
+  date:
+    detail: Sept. 2012 to Sept. 2016
+    i18n: redhat2_date
+  job:
+    detail: Project Leader
+    i18n: redhat2_job
+  icon: fa-plus-square
+
+- name:
+    detail: Redhat
+    i18n: redhat
+  desc:
+    detail: Joined Redhat in JBoss team R&D. Doing SOA, ESB, BPM related middleware products.
+    i18n: redhat1_desc
+  date:
+    detail: Apr. 2009 to Sept. 2012
+    i18n: redhat1_date
+  job:
+    detail: Senior Software Engineer
+    i18n: redhat1_job
+  icon: fa-plus-square
+
+- name:
+    detail: Motorola
+    i18n: moto
+  desc:
+    detail: Senior Software engineer role for mobile db R&D in Motorola Mobile platform R&D . Do ODBC, sqlite, motorola,mobile, C, TCL technology etc
+    i18n: moto_desc
+  date:
+    detail: Mar. 2006 to Sept. 2009
+    i18n: moto_date
+  job:
+    detail: Senior Software Engineer
+    i18n: moto_job
+  icon: fa-plus-square
+
+- name:
+    detail: YongYouGov
+    i18n: yongyou
+  desc:
+    detail: Software engineer for developing an J2EE platform, Do workflow engine(BPMN), Ajax, java stuff.
+    i18n: yongyou_desc
+  date:
+    detail: Jul. 2004 to Mar. 2006
+    i18n: yongyou_date
+  job:
+    detail: Software Engineer
+    i18n: yongyou_job
+  icon: fa-plus-square
+
+- name:
+    detail: China University of Geosciences(Beijing)
+    i18n: cugb
+  desc:
+    detail: Study in CUGB University for both master and bachelor degree, 7 years. Worked half year in 2000, the gap year.
+    i18n: cugb_desc
+  date:
+    detail: Sept. 2001 to July. 2004
+    i18n: cugb_date
+  job:
+    detail: Master degree - Computer Science, Bachelor degree - Construction Engineering
+    i18n: cugb_job
+  icon: fa-plus-square
