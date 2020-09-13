@@ -5,8 +5,9 @@
   name: Blog
   tpl: blog.html
   page: blog/
-  css: testimonials navy-section
-  
+  # css: testimonials navy-section
+  css:
+
 - id: about-me
   i18n: nav.about_me
   name: About

@@ -2,11 +2,29 @@
 - last_name: LinkIn
   first_name:
   desc: Career
-  website: https://www.linkedin.com/in/ryan-zhangcheng/
-  email: ryan.zhangcheng@qq.com
+  website: https://www.linkedin.com/in/ryanzhangcheng/
+  email: ryan.zhangcheng@gmail.com
+
+- last_name: GitHub
+  first_name:
+  desc: Career
+  website: https://github.com/ryanzhang/
+  email: ryan.zhangcheng@gmail.com
+
+- last_name: Medium
+  first_name:
+  desc: Career
+  website: https://medium.com/@ryanzhangcheng
+  email: ryan.zhangcheng@gmail.com
+
+# - last_name: DZone
+#   first_name:
+#   desc: Career
+#   website: https://dzone.com/users/3396374/ryanzhang.html
+#   email: ryan.zhangcheng@gmail.com
 
 - last_name: 水滴
   first_name:
   desc: 生活
   website: https://waterdip.github.io
-  email:
+  email: ryan.zhangcheng@gmail.com
