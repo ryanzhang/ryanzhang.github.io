@@ -4,7 +4,7 @@ title:  "DDD-Domain Driven Design or Deadline Driven Design?"
 date:   2020-09-02
 desc: "DDD practise series-1 "
 keywords: "ddd,eventstorming,innovationlab"
-categories: [work]
+categories: [Work]
 tags: [ddd,eventstorming,innovationlab]
 icon: icon-html
 ---

@@ -4,7 +4,7 @@ title:  "DDD-Software Design, A two person job"
 date:   2020-09-12
 desc: "DDD practise series-2 "
 keywords: "ddd,eventstorming,innovationlab"
-categories: [work]
+categories: [Work]
 tags: [ddd,eventstorming,innovationlab]
 icon: icon-html
 ---

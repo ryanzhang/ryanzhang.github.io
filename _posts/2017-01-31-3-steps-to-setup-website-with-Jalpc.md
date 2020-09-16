@@ -4,7 +4,7 @@ title:  "3 Steps (2 minutes) to Setup Your Personal Website "
 date:   2017-01-31
 desc: "3 Steps (2 minutes) to Setup Your Personal Website "
 keywords: "Jalpc,Jekyll,reveal.js, gh-pages,website,blog,easy, online presentation"
-categories: [work]
+categories: [Life]
 tags: [Jalpc,Jekyll,Reveal.js,presentation]
 icon: icon-html
 ---
