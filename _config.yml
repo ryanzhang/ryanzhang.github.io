@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: 升烟井
+title: 升烟张诚
 description: 亲近自然，回归传统
 keywords: redhat,openshift,devops,CI,CD,python,Java,cloud,kubernetes,fabric8,云计算,运维,jekyll,reveal.js,javascript
 baseurl:  "" # This will be your homepage
@@ -13,7 +13,7 @@ img_path: /static/assets/img  # url should be '/homepage/static/assets/img/blog'
 author:  # change following line to your infomation.
   name: RyanZhangCheng  # Be used at blog posts' author.
   first_name: Ryan  # Be used at index page about me section.
-  last_name: Zhang  # Be used at index page about me section.
+  last_name: ZhangCheng  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: ryanzhang  # Leave blank if you don't have now
   linkedin_id: ryan-zhangcheng # Leave blank if you don't have now
