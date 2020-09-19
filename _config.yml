@@ -28,12 +28,12 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: 亲近自然，回归传统.  # Describe yourself.
+  desc: 未必凡事都要做到最完美  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  config: false
-  id: need register
+  config: true
+  id: ryanzhangcheng
 
 # analytics
 ## google analytics
@@ -101,3 +101,6 @@ collections:
 #markdown: redcarpet
 #highlighter: pygments
 #markdown_ext: ignoreme
+
+# gems:
+#   - jekyll-sitemap

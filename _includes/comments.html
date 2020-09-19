@@ -1,4 +1,5 @@
 {% if site.disqus %}
+<div><b></b>评论</b>:(需要科学上网)</div>
 <div id="disqus_thread"></div>
 <script>
 /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
@@ -9,7 +10,7 @@
 	*/
 	(function() {
 		var d = document, s = d.createElement('script');
-		s.src = '//{{ site.disqus.name }}.disqus.com/embed.js';
+		s.src = '//{{ site.disqus.id }}.disqus.com/embed.js';
 		s.setAttribute('data-timestamp', +new Date());
 		(d.head || d.body).appendChild(s);
 	})();
