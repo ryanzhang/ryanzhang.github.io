@@ -1,6 +1,6 @@
 {
-  "site":{
-    "title": "升烟的博客"
+  "website":{
+    "title": "升烟张诚"
   },
   "nav":{
     "home": "首页",
@@ -62,7 +62,8 @@
     "cugb_job": "研究生:计算机软件, 本科:勘查工程"
   },
   "blog":{
-    "my_blog": "我的博客"
+    "my_blog": "我的博客",
+    "latest_blog": "最近更新"
   },
   "slide":{
     "slide": "幻灯片"

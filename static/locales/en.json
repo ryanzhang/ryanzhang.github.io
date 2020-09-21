@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Ryan ZhangCheng"
   },
   "nav":{
     "home": "Home",
@@ -63,7 +63,8 @@
 
   },
   "blog":{
-    "my_blog": "My Blog"
+    "my_blog": "My Blog",
+    "latest_blog": "Latest Post"
   },
   "slide":{
     "slide": "My Slide"

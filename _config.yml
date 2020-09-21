@@ -2,7 +2,7 @@
 
 # Website settings
 title: 升烟张诚
-description: Ryan ZhangCheng(张诚)的个人主页
+description: Ryan ZhangCheng/升烟张诚的个人主页
 keywords: redhat,openshift,devops,CI,CD,python,Java,cloud,kubernetes,fabric8,云计算,运维,jekyll,reveal.js,javascript
 baseurl:  "" # This will be your homepage
 url: https://ryanzhang.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
