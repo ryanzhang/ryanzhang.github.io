@@ -2,8 +2,36 @@
     <div class="row">
         <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
             <div style="height: 80px;"></div>
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="{{ "/work/" | prepend: site.baseurl }}"><span data-i18n="blog.my_blog">{{ blog.name }}</span></a>
+            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="{{ "/blog/" | prepend: site.baseurl }}"><span data-i18n="blog.my_blog">{{ blog.name }}</span></a>
             <div style="height: 80px;"></div>
         </div>
+    </div>    
+    <div style="width:50%; height: 500px; float:left;">
+        <article style="padding: 100px 120px;">
+            <!-- <div class="poem" style="font-size: 42px;" >江雪</div>
+            <div class="poem" style="font-size: 28px;"><a href="https://zh.wikipedia.org/wiki/%E8%8B%8F%E8%BD%BC">柳宗元</a></div> -->
+            <div></div>
+            <div class="poem">千山🕊飞绝</div>
+            <div class="poem">万径人踪灭</div>
+            <div></div>
+            <div class="poem">孤舟蓑笠翁</div>
+            <div class="poem">独钓寒江雪</div>
+        </article>
     </div>
+    <div class="row" style="width:50%; height: 500px; float:left;">
+    <div class="col-lg-12 wow zoomIn" id="i18_blog">
+    <h1>Latest Post</h1>
+    <ul class="entries">
+        {% for post in site.posts limit:5 %}
+        <li>
+          <a href="{{ post.url }}">
+          <h3>{{ post.title }}</h3>
+          <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+          <!-- <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div> -->
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+     </div>
+    </div>      
 </div>
