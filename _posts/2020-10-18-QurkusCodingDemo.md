@@ -9,7 +9,11 @@ tags: [quarkus]
 icon: icon-html
 ---
 # 两个Quarkus的Coding demo链接
+<a href="https://www.youtube.com/watch?v=-X2kCoWaAfE"><img src="{{ site.img_path }}/blog/quarkus-demo/quarkus-crud-restcall.gif" width="50%"/></a>
+
 [CRUD + Rest api call](https://www.youtube.com/watch?v=-X2kCoWaAfE)
+
+<a href="https://www.youtube.com/watch?v=-X2kCoWaAfE"><img src="{{ site.img_path }}/blog/quarkus-demo/quarkus-reactive-demo.gif" width="50%"/></a>
 
 [Quarkus Reactive demo](https://www.youtube.com/watch?v=o-EzDVqSfQ8)
 
