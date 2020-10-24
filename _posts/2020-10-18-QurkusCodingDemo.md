@@ -4,7 +4,7 @@ title:  "Quarkus Coding Demo-Quarkus 代码示例"
 date:   2020-10-18
 desc: ""
 keywords: "coding, quarkus"
-categories: [work]
+categories: [Work]
 tags: [quarkus]
 icon: icon-html
 ---
