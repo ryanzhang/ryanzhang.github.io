@@ -22,7 +22,7 @@
     <div class="col-lg-12 wow zoomIn" id="i18_blog">
     <h1><span data-i18n="blog.latest_blog">Latest post</span></h1>
     <ul class="entries">
-        {% for post in site.posts limit:15 %}
+        {% for post in site.posts limit:7 %}
         <li>
           <a href="{{ post.url }}">
           <h3>{{ post.title }}</h3>
