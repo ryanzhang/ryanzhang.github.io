@@ -9,6 +9,7 @@ tags: [quarkus]
 icon: icon-html
 ---
 # 两个Quarkus的Coding demo链接
+(点击图片可以跳转Youtube视频)
 ## CRUD + Rest api call
 [<img src="{{ site.img_path }}/blog/quarkus-demo/quarkus-crud-restcall.gif" width="50%"/>](https://www.youtube.com/watch?v=-X2kCoWaAfE)
 
@@ -18,4 +19,4 @@ icon: icon-html
 ## Quarkus streaming message SSE  + kafka (Reactive)
 [<img src="{{ site.img_path }}/blog/quarkus-demo/quarkus-reactive-demo.gif" width="50%"/>](https://www.youtube.com/watch?v=o-EzDVqSfQ8)
 
-(这是疫情期间，随手打的Demo， 代码忘记上传github，所以已经丢失)
+(这是疫情期间，随手打的Demo， 代码忘记上传github，所以已经丢失.)
