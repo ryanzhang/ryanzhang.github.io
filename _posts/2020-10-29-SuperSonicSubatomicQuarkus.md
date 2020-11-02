@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "超音速亚原子Quarkus 加速云原生应用开发"
-date:   2020-10-10
+title:  "超音速亚原子Quarkus 加速云原生应用开发(红帽论坛)"
+date:   2020-10-29
 desc: "Quarkus, Cloud native Java solution for your cloud journey "
 keywords: "ddd,eventstorming,innovationlab"
 categories: [Work]
@@ -14,4 +14,6 @@ icon: icon-html
 
 ## 会议连接
 ### 2020/10/29 14：00-14：30
-[<img src="{{ site.img_path }}/blog/2020RHF/Quarkus-Ryan-Invitation.png" width="25%">](https://live.mircoservice.com/redhat2020/web )
+[<img src="{{ site.img_path }}/blog/2020RHF/2020-rhf-quarkus.png" width="25%">](https://live.mircoservice.com/redhat2020/web/Venue/OnLine?id=11 )
+
+请输入 "rzhang@redhat.com" 进行登陆之后，就可以点击观看
