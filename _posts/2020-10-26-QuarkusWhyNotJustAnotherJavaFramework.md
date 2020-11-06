@@ -5,7 +5,7 @@ date:   2020-10-26
 desc: ""
 keywords: "Quarkus, Cloud Native"
 categories: [Work]
-tags: [softskill]
+tags: [quarkus, java]
 icon: icon-html
 ---
 # Quarkus
