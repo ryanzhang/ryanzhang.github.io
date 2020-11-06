@@ -3,7 +3,23 @@ This page site is used to collect some of my activity and information in interne
 
 - Revise config 配置修改: _config.yml
 - Revise Slides Configuration 修改Slides默认模板: _layouts/reveal.html
-- Add Slides 增加Slides: _slides/
+- Add Slides goto  _slides/
+- Add blog goto _post/
+
+中文说明:
+poem的样式定义在_includes/index_head.html中 
+
+静态页面的模板入口是在 
+index.html
+slides/*.html
+blog/*.html
+中 ， 其中**permalink"定义了最终生成的html的路径
+
+landing配置内容是在 data/landing.yml中
+
+静态页面生成顺序是
+index.html -> layout/blog.html -> 内容render ->调用动态数据 site, data, 这些
+
 
 # How to build & Run
 ## Install ruby and ruby-dev
