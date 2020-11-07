@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "一个好演讲就像一个好的导游"
-date:   2020-10-29
+date:   2020-11-06
 desc: "Quarkus, Cloud native Java solution for your cloud journey "
 keywords: "ddd,eventstorming,innovationlab"
 categories: [Work]

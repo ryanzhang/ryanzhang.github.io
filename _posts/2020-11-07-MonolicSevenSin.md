@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "单体式应用七宗罪"
-date:   2020-10-29
+date:   2020-11-07
 desc: "细数单体应用七大缺点，有7个彩蛋你发现了没有。 "
 keywords: "monolic, architecture"
 categories: [Work]
