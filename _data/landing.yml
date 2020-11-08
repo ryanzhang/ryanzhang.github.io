@@ -20,11 +20,11 @@
 #   tpl: career.html
 #   css: timeline
 
-- id: skill
-  i18n: nav.skills
-  name: Skill
-  tpl: skills.html
-  css: team
+# - id: skill
+#   i18n: nav.skills
+#   name: Skill
+#   tpl: skills.html
+#   css: team
 
 # - id: project
 #   i18n: nav.projects

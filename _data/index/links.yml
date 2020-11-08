@@ -1,31 +1,37 @@
 # links section data
-- last_name: LinkIn
+- last_name: LinkedIn
   first_name:
-  desc: Career
+  desc: 
   website: https://www.linkedin.com/in/ryanzhangcheng/
   email: ryan.zhangcheng@gmail.com
 
 - last_name: GitHub
   first_name:
-  desc: Career
+  desc: 
   website: https://github.com/ryanzhang/
   email: ryan.zhangcheng@gmail.com
 
 - last_name: Medium
   first_name:
-  desc: Career
+  desc: My  blogs Published in Medium
   website: https://medium.com/@ryanzhangcheng
   email: ryan.zhangcheng@gmail.com
 
-
-# - last_name: DZone
-#   first_name:
-#   desc: Career
-#   website: https://dzone.com/users/3396374/ryanzhang.html
-#   email: ryan.zhangcheng@gmail.com
-
-- last_name: 水滴
+- last_name: Slideshare
   first_name:
-  desc: 生活
-  website: https://waterdip.github.io
+  desc: 
+  website: https://www.slideshare.net/ryanzhangcheng
   email: ryan.zhangcheng@gmail.com
+
+- last_name: DZone
+  first_name:
+  desc: My blogs in DZone
+  website: https://dzone.com/users/3396374/ryanzhang.html
+  email: ryan.zhangcheng@gmail.com
+
+- last_name: Youtube
+  first_name:
+  desc: Presentation, live coding, etc；Mostly speaked in Chinese;
+  website: https://youtube.com/user/ryanzhangcheng
+  email: ryan.zhangcheng@gmail.com
+
