@@ -19,6 +19,17 @@ icon: icon-html
 
 这篇文章讲了一个关于作者如何像女儿解释信任好比Marble Jar的故事，Marble Jar就是女儿小学老师给教师立的一个规矩，如果大家表现好，就往一个花瓶里面装珠子，相反就给集体扣分。 这个和心灵帐户是一个道理， 然后却及其容易让孩子接收，我以前就遇到需要和孩子解释这个事情，那么使用孩子已有的信息、资源，比使用成人世界的一些概念要有效地的多。
 
+信任不是非黑即白
+
+有个知名的信任公式是这样的:
+```
+Trust = (Credibility x Affinity) / Risk
+```
+*Credibility = Competence x History x Ethics.*
+
+有句话说的好，*凡是不能量化的东西，都是虚的*， 这个公式可以帮我们更好的量化信任度。 
+
+
 # 想想别人存了多少钱在你这
 这个文章还有一个引发我思考的点，就是文章结尾点题: "a lot of times if you find yourself in struggle with trust, the thing to examine first is your own marble jar, how you treat yourself. Because we can't ask people to give to us something that we do not believe we're worthy of receiving. And you will know you're worthy of receiving it when you trust yourself above everyone else."
 
@@ -35,4 +46,6 @@ icon: icon-html
 * I - Integrity
 * N - Non-judgement
 * G - Generous
+
+这个模型没有覆盖的是 同理心(Empathy)也是构建信任一个非常重要的模块。
 
