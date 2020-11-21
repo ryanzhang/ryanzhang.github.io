@@ -29,6 +29,12 @@ Trust = (Credibility x Affinity) / Risk
 
 有句话说的好，*凡是不能量化的东西，都是虚的*， 这个公式可以帮我们更好的量化信任度。 
 
+[Erin Meyer](https://www.youtube.com/watch?v=T0LcPIRQTpA&feature=youtu.be)
+
+这个视频中指出 信任也可以分类成:
+* Cognitive Trust
+* Affective Trust
+
 
 # 想想别人存了多少钱在你这
 这个文章还有一个引发我思考的点，就是文章结尾点题: "a lot of times if you find yourself in struggle with trust, the thing to examine first is your own marble jar, how you treat yourself. Because we can't ask people to give to us something that we do not believe we're worthy of receiving. And you will know you're worthy of receiving it when you trust yourself above everyone else."
