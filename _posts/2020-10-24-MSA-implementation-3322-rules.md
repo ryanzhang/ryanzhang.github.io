@@ -3,9 +3,9 @@ layout: post
 title:  "微服务实现原则三三两两"
 date:   2020-10-24
 desc: ""
-keywords: "MSA, microservice, 12factor"
+keywords: "MSA, microservice, 12factor， 速记"
 categories: [Work]
-tags: [microservice]
+tags: [microservice, 速记]
 icon: icon-html
 ---
 # 微服务十二条金规
@@ -37,22 +37,31 @@ icon: icon-html
 
 
 ### Config
-配置两个方案
-
-环境变量
-
-配置文件
+配置有两个方案
+* 环境变量
+* 配置文件；配置文件尽量集中到一个里面，也不要和其他进程共享配置文件；配置文件要和程序其他部分可分离；
 
 ### Concurrency
-平发靠复制进程
+并发靠复制进程， 进程是一等公民，而不是线程；
+
+这要求我们在架构程序的时候
+* **Shared nothing**, 主要是为了进程横向扩展的时候，不会受制于其他进程；进程间就是通过api进行解耦；
+* 不要写PID，很多程序会写Pid 用来维护子进程和主进程的关系
+* 不同类型的任务 用不同的进程来实现， Web请求和 后端任务尽量分开，还有定时任务也分开;
+就像**图一**显示那样，不同类型的进程是相互隔离的
+
+![进程模型](https://12factor.net/images/process-types.png)
+图一
 
 ## 3D
 ### Dependencies
-依赖要明确指出。
+依赖要明确指出。 包括库的依赖、也包括开发运行，配置的依赖；
 
 必须很简单能够启动，运行，在任何环境。 不能有各种隐含依赖
 
-必须能够 "just work", "work out of box"。 人类对于懒惰的渴望已经到了令人发指的地步，多一步都不行。
+必须能够达到 **"just work", "work out of box"**。 
+* 一方面是因为人类对于懒惰的渴望已经到了令人发指的地步，多一步都不行。
+* 另一方面是代码协作是一件非常困难的事情，必须做到整齐划一，不能有snowflake这样的模式
 
 ### Deposable
 像日抛型商品，或者纸杯一样, 它应该是很容易安全抛弃，并且很容易用新实例代替的。
@@ -63,6 +72,10 @@ icon: icon-html
 关闭要优雅，就是关闭的时候要考虑用户的请求得到妥善处理，不能说停就停了。
 
 ### Dev/prod parity
+开发和生产环境，要像手心手背一样，总是在一起的，不能分家；对应到code实践就是必须在同一个仓库，同一个分支中；
+
+他们最好长的一样，只是一两个环境变量不同；有的时候，他们的在开发环境和生产环境的行为模式会有些不同，但是要尽量让他们的逻辑、以及流程重用；
+
 ## 2B
 ### Backing services
 状态应该隔离到 Backing services当中，比如数据库，或者能够存储数据库的微服务。
@@ -71,7 +84,12 @@ icon: icon-html
 DevOps, CICD
 ### 2P
 ### Processes
-无状态、share-nothing规则
+无状态、share-nothing规则。
+
+这一条和Cocurrency很像。Cocurrency强调的是 程序要能够横向扩展而不是垂直扩展；不能通过线程复制来扩展；
+这一条强调的是；单个进程应该注意哪些模式;
+
+sticky session是这一条规则的反模式；
 Cache应该放到Backing services当中，不应该设计在Process里面。
 
 ### Port Binding
