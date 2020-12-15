@@ -70,10 +70,14 @@ icon: icon-html
 
 
 # 4.搭建Openvpn
-这里建议就是给你的一台24小时开机的主机 配置Openvpn服务，并且把openvpn的服务端口 映射除去；
+这里建议就是给你的一台24小时开机的虚拟机(或者主机) 配置Openvpn服务，并且把openvpn的服务端口 映射出去；
 
-请参考: https://github.com/ryanzhang/rhel7-install-openvpn
+请参考: [OpenVPN服务器搭建](https://github.com/ryanzhang/rhel7-install-openvpn)
 
+链接的文章中 解决了几个问题:
+* 配置openvpn server
+* 定期发布联通公网ip 到github gist
+* 客户端链接openvpn会动态去gist获取浮动公网ip，然后自动链接
 
 
 
