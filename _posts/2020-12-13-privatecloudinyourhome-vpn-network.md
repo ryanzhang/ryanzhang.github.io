@@ -72,4 +72,8 @@ icon: icon-html
 # 4.搭建Openvpn
 这里建议就是给你的一台24小时开机的主机 配置Openvpn服务，并且把openvpn的服务端口 映射除去；
 
+请参考: https://github.com/ryanzhang/rhel7-install-openvpn
+
+
+
 
