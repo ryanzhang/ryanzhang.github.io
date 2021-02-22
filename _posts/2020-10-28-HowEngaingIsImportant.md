@@ -34,4 +34,4 @@ Simon老师当时回答说:
 
 "一个人不可能在Present的时候做到Self reflection, 因为你在Present的时候，你就不在self reflection, 你在self reflection就不可能present"
 
-
+我认为人的大脑是超强多核的，我们其实是可以边说的时候，同时去多观察、并且可以通过提问。
