@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Publish how to handle 100k decision table in drools"
+title:  "Published a blog how to handle 100k decision table in drools"
 date:   2021-3-1
 
 desc: "How to handle 100k decision table rows in Drools?"
